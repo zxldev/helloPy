@@ -1,3 +1,4 @@
+
 #有序集和
 classmates = ['Michael', 'Bob', 'Tracy']
 print(classmates)
@@ -21,11 +22,26 @@ print(L[2][2])
 print('\n==============\n')
 
 #循化语句
-for list in L:
-    for e in list:
+for l in L:
+    for e in l:
         #不打印换行符方式
         print(e, '',end="")
     print ('\n')
 
-ceshi = list(range(10))
-print()
+
+#切片
+S = list(range(100))
+print(S)
+print(S[1:6])
+print(S[:6])
+print(S[-6])
+print(S[-6:-1])
+print(S[:])
+#步长为2
+print(S[1:6:2])
+print(S[1::10])
+#字符串的切片
+print('你好，我是admin'[::2])
+print((1,2,3,4,5)[::2])
+
+
