@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 'a test model'
 
 __author__ = 'zxldev'

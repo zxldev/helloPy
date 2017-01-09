@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 #有序集和
 classmates = ['Michael', 'Bob', 'Tracy']
 print(classmates)
